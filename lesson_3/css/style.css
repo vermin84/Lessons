@@ -23,6 +23,12 @@
 .pers {
     color: blue;
 }
-.siam {
+#siam {
     color: goldenrod;
+}
+[class*="-title"] {
+    color: brown;
+}
+div h2 {
+    color: red;
 }
