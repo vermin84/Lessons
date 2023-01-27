@@ -1,0 +1,28 @@
+@import url('reset.css');
+
+.header h1{
+    color: blue;
+}
+.cats-list li{
+    color: green;
+}
+.main {
+}
+.main-koon {
+    color: red;
+}
+.bobtail {
+    color: blueviolet;
+}
+.bengal {
+    color: brown;
+}
+.regdol p{
+    color: yellowgreen;
+}
+.pers {
+    color: blue;
+}
+.siam {
+    color: goldenrod;
+}
