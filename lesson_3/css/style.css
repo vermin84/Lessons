@@ -26,7 +26,7 @@
 #siam {
     color: goldenrod;
 }
-[class*="-title"] {
+[class*="__title"] {
     color: brown;
 }
 div h2 {
