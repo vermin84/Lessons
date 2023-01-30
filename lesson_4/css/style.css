@@ -1,0 +1,112 @@
+@import url(reset.css);
+
+@font-face {
+    font-family: 'Cat Font';
+    src: url('../fonts/CatFont.woff2') format('woff2'),
+        url('../fonts/Cat\ Font.ttf')
+        url('../fonts/CatFont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:regular,italic,500,500italic,600,600italic&display=swap);
+
+
+
+.header h1 {
+    font-family: 'Cat Font';
+    font-size: 75px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: green;
+    text-align: center;
+    letter-spacing: 10px;
+}
+.font-list li{
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: line-through;
+    text-shadow: 2px 2px 5px rgb(247, 244, 244),
+                    10px 10px 15px rgb(0, 0, 0),
+                    25px 25px 30px rgb(0, 0, 0);
+}
+.font-list li:hover {
+    text-decoration: underline;
+}
+.main {
+}
+.poppins p{
+    font-family: 'Poppins';
+    font-size: 22px;
+    line-height: 1.5;
+    letter-spacing: 5px;
+    text-align: justify;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.poppins h2 {
+    font-family: 'Poppins';
+    font-size: 38px;
+    font-style: italic;
+    text-align: center;
+    text-decoration: overline;
+    color: gray;
+}
+.Solitreo {
+    font-family: 'Solitreo';
+}
+.Solitreo h2 {
+    font-size: 52px;
+    text-align: right;
+    text-decoration: line-through;
+    letter-spacing: 20px;
+    line-height: 2;
+}
+.Solitreo p {
+    font-size: 20px;
+    line-height: 3;
+    letter-spacing: 2px;
+    text-align: right;
+}
+.Cat-Font {
+    font-family: 'Cat Font';
+}
+.Cat-Font h2 {
+    font-size: 52px;
+    text-transform: lowercase;
+    text-decoration: underline;
+    font-style: italic;
+    color: blueviolet;
+}
+.Cat-Font p {
+    font-size: 20px;
+    text-transform: capitalize;
+    text-decoration: line-through;
+    text-align: center;
+    line-height: 5;
+    letter-spacing: 15px;
+    color: blue;
+    
+}
+.Roboto {
+    font-family: 'Roboto';
+}
+.Roboto h2 {
+    font-size: 52px;
+    font-weight: 500;
+    line-height: 2;
+    
+}
+.Roboto p {
+    font-size: 32px;
+    font-weight: 600;
+    font-style: italic;
+    letter-spacing: 10px;
+    text-align: center;
+    word-spacing: 20px;
+    white-space: nowrap;
+    color: rgba(55, 168, 51, 0.5);
+}
