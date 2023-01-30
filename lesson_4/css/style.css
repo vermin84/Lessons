@@ -1,18 +1,18 @@
 @import url(reset.css);
 
+
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:regular,italic,500,500italic,600,600italic&display=swap);
+
 @font-face {
     font-family: 'Cat Font';
     src: url('../fonts/CatFont.woff2') format('woff2'),
-        url('../fonts/Cat\ Font.ttf')
+        url('../fonts/Cat\ Font.ttf'),
         url('../fonts/CatFont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
-
-@import url(https://fonts.googleapis.com/css?family=Poppins:regular,italic,500,500italic,600,600italic&display=swap);
-
-
 
 .header h1 {
     font-family: 'Cat Font';
