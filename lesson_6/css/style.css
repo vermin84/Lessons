@@ -1,0 +1,127 @@
+@import url(reset.css);
+[class*='__container'] {
+    max-width: 1270px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.main {
+    font-family: 'Poppins';
+    font-size: 14px;
+    line-height: 1.6;
+    color: #6C757D;
+    padding: 50px 0;
+
+}
+.article-1 {
+}
+.article__container {
+}
+.text-block {
+    max-width: 816px;
+    margin: 0 auto 80px;
+}
+.text-title {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.6;
+    color: #212529;
+    margin-bottom: 40px;
+}
+.text-content p {
+    margin-bottom: 30px;
+}
+.image {
+    max-width: 100%;
+    border-radius: 5px;
+}
+.images {
+    font-size: 0;
+    margin-bottom: 80px;
+}
+.image-1 {
+    margin-bottom: 80px;
+}
+.image-2,
+.image-5 {
+    margin-right: 30px;
+}
+.image-3 {
+}
+.article-2 .text-content {
+    margin-bottom: 100px;
+}
+.image-4 {
+    width: 100%;
+    margin-bottom: 100px;
+    border-radius: 0;
+}
+.article-2__container {
+}
+.image-5 {
+}
+.image-6 {
+}
+
+
+.homework {
+}
+.homework__container {
+}
+.link-list {
+    font-size: 0;
+}
+.link {
+    display: inline-block;
+    padding: 15px;
+    background: purple;
+    color: azure;
+    font-size: 25px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 5px rgb(0, 0, 0);
+    transition: 0.5s all;
+}
+.link-1 {
+    border: solid 2px red;
+}
+.link-1:hover {
+    opacity: 0;
+}
+
+.link-2 {
+    border: dotted 3px green;
+}
+.link-2:hover {
+    border: none;
+}
+.link-3 {
+    border: dashed 5px gold;
+}
+.link-3:hover {
+    border-radius: 50%;
+}
+.link-4 {
+    border: double 3px blue;
+}
+
+.link-4:hover {
+    box-shadow: 2px 2px 5px 5px rgb(0, 0, 0);
+}
+.link-5 {
+    outline: dotted 5px pink;
+}
+.link-5:hover {
+    outline: none;
+}
+.link-6 {
+    outline: solid 10px green;
+}
+.link-7 {
+    outline: dashed 2px blueviolet;
+}
+.link-8 {
+    outline: double 5px silver;
+}
+.link-9 {
+}
