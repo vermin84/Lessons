@@ -1,0 +1,262 @@
+@import url(reset.css);
+body {
+    font-family: 'Inter';
+
+}
+.wrapper {
+    overflow: clip;
+    height: 100wh;
+    background: #E5E5E5;
+}
+
+
+[class*='__container'] {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #fff;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    position: fixed;
+    width: 100%;
+        
+}
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+
+
+.header__logo {
+   
+    margin: 30px 0;
+}
+.header__categories {
+    
+    margin-right: 45px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #212B36;
+}
+.drop {
+    position: relative;
+    
+    
+   
+}
+
+.drop__link {
+    display: inline-block;
+    
+    padding: 9px 41px 9px 21px;
+    border-radius: 5px;
+    position: relative;
+}
+.drop__link::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    height: 10px;
+    width: 12px;
+    background: url('../img/vector.svg') no-repeat;
+
+}
+
+.drop__menu {
+}
+.menu-drop {
+    
+    
+    min-width: 180px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #637381;
+    padding: 24px 5px 24px 24px;
+    background: #fff;
+    
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    
+}
+.menu-drop::before {
+    content: '';
+    position: absolute;
+    top: 35px;
+    left: 0;
+    width: 25px;
+    height: 20px;
+    background: url('../img/1.png') no-repeat;
+}
+.drop:hover .drop__link{
+    background: #E5E5E5;
+}
+
+.drop:hover .drop__wrap{
+    visibility: visible;
+    
+    pointer-events: all
+}
+.menu-drop__item {
+}
+.drop__wrap {
+    padding-top: 48px;
+    position: absolute;
+    top: 90%;
+    visibility: hidden;
+}
+
+.menu-drop__item:not(:last-child) {
+    margin-bottom: 13px;
+}
+.menu-drop__item:hover {
+    color: #3056D3;
+}
+.menu-drop__link {
+    padding-right: 20px;
+}
+
+.header__navigation {
+    
+}
+.nav {
+    
+}
+.nav__list {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #212B36;
+}
+.nav__item {
+    display: inline-block;
+}
+.nav__item img {
+    vertical-align: middle;
+    margin-left: 15px;
+}
+.nav__item:not(:last-child){
+    margin-right: 30px;
+}
+.nav__link {
+    display: inline-block;
+    padding: 10px 0;
+}
+.nav__link:hover {
+    color: #3056D3;
+}
+.header__actions {
+    
+    
+}
+.action {
+    margin-right: 20px;
+}
+.action__link {
+
+}
+.action__link:not(:last-child) {
+    margin-right: 20px;
+}
+
+.drop-side {
+    position: relative;
+}
+.drop-side::before {
+    content: '';
+    position: absolute;
+    top: 40%;
+    right: 30px;
+    width: 10px;
+    height: 10px;
+    background: url('../img/vector2.svg') no-repeat;
+}
+.drop-side__wrap {
+    padding-left: 20px;
+    position: absolute;
+    left: 90%;
+    top: 0;
+    
+    visibility: hidden;
+}
+
+.drop-side:hover .drop-side__wrap {
+    visibility: visible;
+}
+
+
+.drop-side__content {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    padding: 30px;
+    display: flex;
+    
+}
+.sub-menu {
+}
+.sub-menu__colomn {
+    min-width: 120px;
+    
+}
+.sub-menu__colomn:not(:last-child) {
+    margin-right: 80px;
+}
+.sub-menu__title {
+    color: #212B36;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.sub-menu__list {
+}
+.sub-menu__item {
+}
+.sub-menu__link {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #637381;
+}
+.sub-menu__item:not(:last-child) {
+    margin-bottom: 12px;
+}
+.sub-menu__link:hover {
+    color: #3056D3;
+}
+
+
+
+
+
+
+.page {
+   padding-top: 150px;
+}
+.page p {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 2;
+}
+.page__container {
+}
+.page__sticky {
+    position: sticky;
+    background: #3056D3;
+    text-align: center;
+    top: 50%;
+}
+
+.page__title {
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+}
