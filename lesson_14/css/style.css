@@ -1,0 +1,170 @@
+@import url(reset.css);
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    overflow: clip;
+}
+
+
+[class*='__container'] {
+    max-width: 1270px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header {
+}
+.page {
+    flex-grow: 1;
+}
+
+
+
+.page__gallery {
+}
+.gallery {
+}
+.gallery__container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.gallery__navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 44px;
+}
+.navigation {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 2.1;
+}
+.navigation__categories {
+}
+.categories {
+}
+.categories__link:hover {
+    text-decoration: underline;
+}
+
+.navigation__select {
+}
+.select {
+}
+.select__item {
+    
+    color: #49505780;
+}
+.select__item:hover {
+    text-decoration: underline;
+}
+.item_active {
+    
+    color: #495057;
+}
+.gallery__content {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 60px;
+    
+}
+.gallery__column {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 33.33%;
+   gap: 40px;
+}
+.gallery__item {
+}
+.item {
+    
+    display: flex;
+    flex-direction: column;
+}
+.item__image {
+    margin-bottom: 30px;
+    position: relative;
+    transition:  0.5s ease-out;
+}
+
+.item__image:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+.item__image::after {
+    content: '';
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 64px;
+    height: 25px;
+    background: url('../img/category.png') center/ cover no-repeat;
+    z-index: 5;
+}
+.item__image img {
+    max-width: 100%;
+}
+
+.item__text {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #E5E5E5;
+    margin-bottom: 15px;
+}
+
+.item__date {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.66;
+    color: #495057;
+}
+.item__title {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.6;
+    color: #212529;
+}
+.item__label {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1.66;
+    color: #495057;
+}
+
+.item__author {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1.66;
+    color: #495057;
+}
+.gallery__action {
+    display: flex;
+    justify-content: center;
+}
+.action {
+}
+.action__button {
+    color: #F8F9FA;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 2.1;
+    padding: 7px 50px;
+    border-radius: 3px;
+    background-color: #212529;
+    transition: 0.3s ease-in-out;
+}
+.action__button:hover {
+    transform: scale(1.2);
+    background-color: #2a323a;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.6);
+}
+.footer {
+}
